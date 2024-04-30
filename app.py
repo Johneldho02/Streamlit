@@ -16,7 +16,7 @@ else:
     gen = 0    
 
 feature=np.array([gen,age,est_sal])
-ans = np.array(['No, the given customer will not a make a purchase','Yes, the given customer will make a purchase'])
+ans = np.array(['No, the given customer will not make a purchase','Yes, the given customer will make a purchase'])
 
 submit = st.button('Submit')
 
